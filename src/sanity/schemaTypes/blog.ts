@@ -31,7 +31,10 @@ export const blog = defineType({
     defineField({
       name: 'mainImage',
       type: 'image',
-      title: 'Blog Image',
+      title: 'main Image',
+      options:{
+        hotspot:true,
+      },
     }),
     defineField({
       name: 'content',
